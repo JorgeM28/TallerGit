@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TareasEjercicio</title>
+    <style>
+        .completada {
+            text-decoration: line-through;
+            color: green;
+        }
+        .noCompletada {text-decoration: none;}
+
+        #listaTareas li {
+            cursor: pointer;
+            font-size: 30px;
+            font-weight: bold;
+        }
+
+    </style>
+</head>
+<body>
+    <main>
+        <section>  
+            <br/><br/>   
+            <input type="text" id="inputTarea" placeholder="Ingrese una tarea">
+            <button id="btnAgregarTarea">Agregar Tarea</button>
+            <br/><br/>
+            <h1>Lista de Tareas</h1>
+            <ul id="listaTareas"></ul>  
+        </section>
+    </main>
+    <script src="./js/index.js"></script>    
+</body>
+</html>
