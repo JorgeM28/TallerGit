@@ -40,7 +40,7 @@ function initChart() {
         label: 'Temperatura (°C)',
         data: [20.3, 20.5, 20.3, 20.1, 19.9, 19.7],
         borderWidth: 2,
-        borderColor: 'rgb(22, 100, 23)',
+        borderColor: 'rgb(143, 12, 103)',
         backgroundColor: 'rgba(74, 151, 40, 0.2)',
         tension: 0.3
       }]
