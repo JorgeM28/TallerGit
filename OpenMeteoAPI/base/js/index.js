@@ -103,7 +103,7 @@ function updateChart(timeLabels, temperatureData) {
         label: 'Temperatura (°C)',
         data: temperatureData,
         borderWidth: 2,
-        borderColor: 'rgb(22, 100, 23)',
+        borderColor: 'rgb(109, 25, 126)',
         backgroundColor: 'rgba(74, 151, 40, 0.2)',
         tension: 0.3
       }]
