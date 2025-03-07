@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PokeAPI</title>
+    <style>
+        table {
+            margin: 20px auto;
+            width: 70%;
+            background-color: #b63f3f;
+            padding: 20px;
+            font-size: 1.5em;
+            text-align: left;
+        }
+
+        h1 {
+            font-size: 2em;
+        }
+
+        #contenedor {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 80vh;           
+        }
+
+        #info_pokemon{
+            border: 1px solid black;
+            display: inline-block;
+            margin-top: 20px;
+            width: 25vw;
+            text-align: center;
+            background-color: #CC0000;
+            color: white;
+            border-radius: 10px;
+        }
+
+        #pokemon_image{
+            width: 180px;
+            background-color: white;
+            border-radius: 10px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <main id="contenedor">
+        <section>
+            <img src="./img/pokeapi.png">
+            <br/><br/>
+            <label>Nombre Pokemon:</label>
+            <input type="text" id="pokemon_text">
+            <button id="buscar">Buscar</button>
+        </section>
+        <section id="info_pokemon">
+            <h1 id="pokemon_name">Pokemon Name</h1>
+            <img src="#" title="pokemon_image" id="pokemon_image">
+            <table>
+                <tr>
+                    <td>ID:</td>
+                    <td id="pokemon_id">#</td>
+                </tr>
+                <tr>
+                    <td>Altura (dm):</td>
+                    <td id="pokemon_height">#</td>
+                </tr>
+                <tr>
+                    <td>Peso (hg):</td>
+                    <td id="pokemon_weight">#</td>
+                </tr>
+            </table>
+        </section>
+    </main>  
+    <script src="./js/index.js"></script>
+</body>
+</html>
